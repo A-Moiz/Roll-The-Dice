@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="@color/orange"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/diceImg"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/dice"/>
+
+    <TextView
+        android:id="@+id/agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The aim of this game is to reach the target score before the computer. You and the computer will roll 5 dices at the same time and sum of each dice will be tallied up. You and the computer will have the option to re-roll twice per turn if you and the computer choose to do so. Good Luck!"
+        android:fontFamily="monospace"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/diceImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
